@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv {
+    display: flex;
+
+}
+
+.asideContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 296px;
+    width: 100%;
+    background: #14171F;
+    align-items: center;
+}
+
+.asideWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.logo-avatarContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.logoContainer {
+    border-bottom: 1px solid #3D414B;
+    padding: 0px 16px 16px 16px;
+    margin-top: 24px;
+}
+
+.avatarContainer {
+    display: flex;
+    padding: 12px 0px;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar-nameContainer {
+    display: flex;
+    gap: 8px;
+
+}
+
+.nameContainer {
+    max-width: 113px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.andrioP {
+    color: #FFFFFF;
+
+}
+
+.studentP {
+    color: #929699;
+    font-size: 14px;
+}
+
+.navWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.navBarContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 137px;
+}
+
+
+.DashBoardDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    width: 100%;
+}
+
+.dashboardSpan {
+    color: #929699;
+}
+
+.setingsNavDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px;
+    border-top: 1px solid #3D414B;
+    border-bottom: 1px solid #3D414B;
+    gap: 20px;
+}
+
+.settingButtonDiv {
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    max-width: 296px;
+    width: 100%;
+    border: 1px solid #7B62FF;
+}
+
+.LogoutButton {
+    display: flex;
+    align-items: center;
+    background-color: #14171F;
+    gap: 12px;
+    color: #7B62FF;
+    border: 0px solid black;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1144px;
+    width: 100%;
+    margin: 24px 32px 32px 32px;
+    gap: 32px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headerNavDiv {
+    display: flex;
+    gap: 24px;
+
+}
+
+.headerNavLinks {
+    color: #2F2F2F;
+
+}
+
+.headerSearchDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.became-classButton {
+    font-size: 14px;
+    padding: 8px 12px;
+    color: #2F2F2F;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background: #F7F7F7;
+}
+.tuneDiv{
+    display: flex;
+    background-image: url(../images/backgroundMain.png);
+    background-size: cover;
+    background-position: center;
+    height: 228px;
+    border-radius: 16px;
+border: 1px solid #C7C7C7;
+}
