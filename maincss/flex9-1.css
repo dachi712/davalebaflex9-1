@@ -871,6 +871,7 @@ main {
         max-width: 767px;
         width: 100%;
         flex-wrap: wrap;
+        height: 228px;
     }
     .mainDiv{
         max-width: none;
@@ -887,6 +888,9 @@ main {
         max-width: none;
         width: 100%;
         margin-bottom: 17px;
+    }
+    .tuneP{
+        font-size: 24px;
     }
     .headerSearchDiv{
         max-width: none;
