@@ -12,7 +12,7 @@
 <body>
     <div class="mainDiv">
         <div class="asideContainer">
-            <div class="asideWrapper">
+            <div>
                 <div class="logo-avatarContainer">
                     <div class="logoContainer">
                         <img src="../images/logopng.png" width="216px" height="48px" alt="LogoPng" />
@@ -32,59 +32,58 @@
                         </div>
                     </div>
                 </div>
-                <div class="navWrapper">
-                    <nav>
-                        <div class="navBarContainer">
-                            <div class="DashBoardDiv">
-                                <a href="#"><img src="../images/Home.png" alt="HomePng"></a>
-                                <a href="#"><span class="dashboardSpan">DashBoard</span></a>
-                            </div>
-                            <div class="DashBoardDiv">
-                                <a href="#"><img src="../images/checkMarks.png" alt="checkMarksPng"></a>
-                                <a href="#"><span class="dashboardSpan">My Courses</span></a>
-                            </div>
-                            <div class="DashBoardDiv">
-                                <a href="#"><img src="../images/classes.png" alt="classesPng"></a>
-                                <a href="#"><span class="dashboardSpan">Save Classes</span></a>
-                            </div>
-                            <div class="DashBoardDiv">
-                                <a href="#"><img src="../images/documents.png" alt="documentsPng"></a>
-                                <a href="#"><span class="dashboardSpan">Assignments</span></a>
-                            </div>
-                            <div class="DashBoardDiv">
-                                <a href="#"><img src="../images/TestList.png" alt="TestListPng"></a>
-                                <a href="#"><span class="dashboardSpan">Test</span></a>
-                            </div>
-                            <div class="DashBoardDiv">
-                                <a href="#"><img src="../images/User.png" alt="UserPng"></a>
-                                <a href="#"><span class="dashboardSpan">Groups</span></a>
-                            </div>
-                            <div class="DashBoardDiv">
-                                <a href="#"><img src="../images/NumberSquare.png" alt="NumberSquarePng"></a>
-                                <a href="#"><span class="dashboardSpan">Forum</span></a>
-                            </div>
+                <nav>
+                    <div class="navBarContainer">
+                        <div class="DashBoardDiv">
+                            <a href="#"><img src="../images/Home.png" alt="HomePng"></a>
+                            <a href="#"><span class="dashboardSpan">DashBoard</span></a>
                         </div>
-                        <div class="setingsNavDiv">
-                            <div class="DashBoardDiv">
-                                <a href="#"><img src="../images/charts-copy.png" alt="analyticsPng"></a>
-                                <a href="#"><span class="dashboardSpan">Analytics</span></a>
-                            </div>
-                            <div class="DashBoardDiv">
-                                <a href="#"><img src="../images/Settings.png" alt="SettingsPng"></a>
-                                <a href="#"><span class="dashboardSpan">Setting</span></a>
-                            </div>
+                        <div class="DashBoardDiv">
+                            <a href="#"><img src="../images/checkMarks.png" alt="checkMarksPng"></a>
+                            <a href="#"><span class="dashboardSpan">My Courses</span></a>
                         </div>
-                    </nav>
-                    <div class="settingButtonDiv">
-                        <a href="#"><button class="LogoutButton"><img src="../images/LogOut.png"
-                                    alt="LogOutPng">Setting</button></a>
+                        <div class="DashBoardDiv">
+                            <a href="#"><img src="../images/classes.png" alt="classesPng"></a>
+                            <a href="#"><span class="dashboardSpan">Save Classes</span></a>
+                        </div>
+                        <div class="DashBoardDiv">
+                            <a href="#"><img src="../images/documents.png" alt="documentsPng"></a>
+                            <a href="#"><span class="dashboardSpan">Assignments</span></a>
+                        </div>
+                        <div class="DashBoardDiv">
+                            <a href="#"><img src="../images/TestList.png" alt="TestListPng"></a>
+                            <a href="#"><span class="dashboardSpan">Test</span></a>
+                        </div>
+                        <div class="DashBoardDiv">
+                            <a href="#"><img src="../images/User.png" alt="UserPng"></a>
+                            <a href="#"><span class="dashboardSpan">Groups</span></a>
+                        </div>
+                        <div class="DashBoardDiv">
+                            <a href="#"><img src="../images/NumberSquare.png" alt="NumberSquarePng"></a>
+                            <a href="#"><span class="dashboardSpan">Forum</span></a>
+                        </div>
                     </div>
-                </div>
+                    <div class="setingsNavDiv">
+                        <div class="DashBoardDiv">
+                            <a href="#"><img src="../images/charts-copy.png" alt="analyticsPng"></a>
+                            <a href="#"><span class="dashboardSpan">Analytics</span></a>
+                        </div>
+                        <div class="DashBoardDiv">
+                            <a href="#"><img src="../images/Settings.png" alt="SettingsPng"></a>
+                            <a href="#"><span class="dashboardSpan">Setting</span></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="settingButtonDiv">
+                <a href="#"><button class="LogoutButton"><img src="../images/LogOut.png"
+                            alt="LogOutPng">Setting</button></a>
             </div>
         </div>
         <div class="contentWrapper">
             <header>
                 <div class="headerNavDiv">
+                    <img src="../images/burgerMenu.png" class="burgerMenu" alt="burgerMenu">
                     <a href="#" class="headerNavLinks">Learning Paths</a>
                     <a href="#" class="headerNavLinks">Create</a>
                     <a href="#" class="headerNavLinks">Build</a>
@@ -263,13 +262,14 @@
                                 </div>
                                 <div class="locationButtonDiv">
                                     <div class="evergeenDiv">
-                                        <button class="evergenButton">Evergreen Meadows 12345</button>
-                                        <img src="../images/Arrow.png" alt="arrowPng">
-                                    </div>
-                                    <div class="locationButtons">
-                                        <button class="olsonButton">208 Olson Boulevard, Toyburgh</button>
-                                        <button class="gregorioButton">67B Gregorio Grove ,Jaskolskiville</button>
-                                        <button class="gregorioButton">0 / 77 Purdy Crescent, West Arthur</button>
+                                        <form action="#" class="thirdForm">
+                                            <select class="evergenSelect">
+                                                <option>Evergreen Meadows 12345</option>
+                                                <option>208 Olson Boulevard, Toyburgh</option>
+                                                <option>67B Gregorio Grove ,Jaskolskiville</option>
+                                                <option>0 / 77 Purdy Crescent, West Arthur</option>
+                                            </select>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -279,7 +279,8 @@
                                     <span class="wordsSpan">100/120 words</span>
                                 </div>
                                 <div class="dedicatedDiv">
-                                    <p  class="dedicatedP">"I'm a dedicated freelancer specializing in [your field, e.g., UI/UX design,
+                                    <p class="dedicatedP">"I'm a dedicated freelancer specializing in [your field, e.g.,
+                                        UI/UX design,
                                         writing, etc.], passionate about delivering creative and effective solutions.
                                         With [X years] of experience, I thrive on turning ideas into impactful results
                                         for my clients</p>
